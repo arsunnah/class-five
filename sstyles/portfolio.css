@@ -93,7 +93,12 @@ nav a {
 }
 /* main sectiion styles */
 
-
+main{
+    max-width: 1140px;
+    margin: auto;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 
 .about{
     padding: 135px;
@@ -115,4 +120,12 @@ text-align: center;
 font-size: 18px;
 font-weight: 400;
 line-height: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+
 }
