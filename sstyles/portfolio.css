@@ -51,9 +51,9 @@ nav a {
 /* header related style */
 .header {
     background: #FFF8F3;
-    background-image: url("../images/header_bg.png");
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right , top left;
 }
 
 .banner {
@@ -66,6 +66,7 @@ nav a {
 
 .banner .profile-pic {
     width: 584px;
+   
 
 }
 
@@ -108,7 +109,7 @@ main section {
 .about {
     padding: 135px;
     border-radius: 10px;
-    background: #FFF8F3;
+    background: #faede4;
 }
 
 .section-titel {
@@ -152,7 +153,7 @@ main section {
     padding: 30px;
 
     border-radius: 5px;
-    background: #FFF;
+    background: #fae3cf;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 
 }
@@ -213,7 +214,7 @@ main section {
 footer {
     margin-top: 100px;
     display: flex;
-    background-color: #FFF8F3;
+    background-color: #fce4d4;
     padding: 130px 200px;
     gap: 100px;
 }
